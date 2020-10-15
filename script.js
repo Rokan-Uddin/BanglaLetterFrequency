@@ -3,7 +3,7 @@
 
     // Global Options
     Chart.defaults.global.defaultFontFamily = 'Lato';
-    Chart.defaults.global.defaultFontSize = 18;
+    Chart.defaults.global.defaultFontSize = 20;
     Chart.defaults.global.defaultFontColor = '#777';
 
     let massPopChart = new Chart(myChart, {
@@ -18,7 +18,7 @@
          'য','র','ল','শ','ষ','স','হ','ক্ষ','ড়','ঢ়','য়',
          'ি','ী','ু','ূ','া','ো','ৌ','ে','ৈ','ৃ'  ],
         datasets:[{
-          label:'Frequency',
+          label:'',
           data:[
           fre[0],fre[1],fre[2],fre[3],fre[4],fre[5],fre[6],fre[7],fre[8],fre[9],
           fre[10],fre[11],fre[12],fre[13],fre[14],
